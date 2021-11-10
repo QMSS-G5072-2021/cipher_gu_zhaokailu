@@ -18,16 +18,20 @@ def cipher(text, shift, encrypt=True):
     string
        text output after encrypt or decrypt.
 
-    Examples1 encrypting
+    Examples 
     --------
     >>> from cipher_zg2382 import cipher
     >>> cipher('D', 3, True)
     'A'
-    Examples2 encrypting
-    --------
+    
+    encrypting
+
     >>> from cipher_zg2382 import cipher
     >>> cipher('A', 3, False)
     'D'
+
+    decrypting
+
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
