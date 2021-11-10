@@ -8,6 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Sphinx = "^4.2.0"
+helper = "^2.5.0"
 
 [tool.poetry.dev-dependencies]
 myst-nb = "^0.13.1"
