@@ -20,13 +20,13 @@ def cipher(text, shift, encrypt=True):
 
     Examples 
     --------
-    >>> from cipher_zg2382 import cipher
+    >>> from cipher_zg2382 import cipher_zg2382
     >>> cipher('D', 3, True)
     'A'
     
     encrypting
 
-    >>> from cipher_zg2382 import cipher
+    >>> from cipher_zg2382 import cipher_zg2382
     >>> cipher('A', 3, False)
     'D'
 
